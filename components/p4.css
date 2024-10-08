@@ -1,0 +1,85 @@
+.p4 {
+  background: var(--clr-white);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.p4 .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header picture"
+    "picture2 aside";
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-items: center;
+}
+.p4 header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+}
+.p4 aside {
+  grid-area: aside;
+  display: flex;
+  align-items: center;
+}
+.p4 picture {
+  grid-area: picture;
+  display: flex;
+  align-items: center;
+}
+.p4 picture2 {
+  grid-area: picture2;
+  display: flex;
+  align-items: center;
+}
+
+.p4-box1 {
+  width: 526px;
+}
+.p4-title {
+  font-size: 2rem;
+  color: var(--clr-gray900);
+}
+.p4-undertext {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--clr-gray700);
+}
+.button-p4 {
+  color: white;
+  background-color: var(--clr-purple);
+  width: 159px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5em;
+  gap: 0.5em;
+}
+.edit-p4-box {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.edit-p4-box1 {
+  display: flex;
+  padding-bottom: 1em;
+}
+.p4-smallpic {
+  padding-right: 0.5em;
+}
+.p4-logo-info {
+  display: flex;
+  gap: 1.5rem;
+  width: 526px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.icon-card-p4 {
+  padding-bottom: 1em;
+}
+.icon-wallet-p4 {
+  padding-bottom: 1em;
+}

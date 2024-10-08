@@ -1,0 +1,244 @@
+.p1 {
+  background: var(--clr-p1);
+}
+.undertext-1 {
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.headers {
+  padding-top: 1rem;
+  text-align: center;
+}
+.p1-header {
+  font-size: 2.13125rem;
+  color: var(--clr-gray900);
+}
+.undertext1 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: var(--clr-gray700);
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  line-height: 2rem;
+}
+.icons-googleApp {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  text-align: center;
+  row-gap: 0.8rem;
+  padding: 0.5em;
+  color: var(--clr-white);
+  cursor: pointer;
+}
+.icons-googleApp div {
+  background-color: var(--clr-gray900);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+.google-icon {
+  height: 50px;
+  display: flex;
+}
+.Google-play {
+  padding-right: 0.1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.g1 {
+  width: 50%;
+  padding-bottom: 0.2em;
+}
+.google-stacked-img {
+  display: flex;
+  flex-direction: column;
+}
+.App-store,
+.google-text {
+  filter: var(--clr-iconclr);
+}
+.google-text-box {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.2em;
+  padding: 0;
+}
+
+.discover-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.discover {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--clr-gray700);
+}
+.arrowdown {
+  background-color: var(--clr-arrowbg);
+  color: var(--clr-gray900);
+  width: 36px;
+  height: 36px;
+  border-radius: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 2px 3px 4px rgb(0, 0, 0, 0.05);
+}
+.twophones-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (width >= 768px) {
+  .p1 .container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 173px auto auto;
+    grid-template-areas:
+      "header header"
+      "article aside";
+  }
+
+  .p1 header {
+    grid-area: header;
+  }
+  .p1 article {
+    grid-area: article;
+    padding-left: 1rem;
+  }
+  .p1 aside {
+    grid-area: aside;
+    place-self: center;
+    padding-right: 1rem;
+  }
+  .toggle-switch .text {
+    display: block;
+  }
+
+  .headers {
+    padding-top: 2rem;
+  }
+  .p1-header {
+    font-size: 2.76875rem;
+  }
+  .undertext-1 {
+    padding-top: 4rem;
+  }
+  .undertext1 {
+    width: 275px;
+    text-align: left;
+  }
+  .line-break::before {
+    content: "\A";
+    white-space: nowrap;
+    display: block;
+  }
+  .icons-googleApp {
+    gap: 1rem;
+    display: flex;
+    padding: 0;
+  }
+  .Google-play,
+  .App-store {
+    padding-left: 0.5rem;
+  }
+  .google-stacked-img,
+  .App-store {
+    padding-right: 0.5rem;
+  }
+  .twophones {
+    display: block;
+  }
+  .twophones-image {
+    min-height: 417px;
+  }
+  .discover-box {
+    justify-content: left;
+    padding-top: 3rem;
+  }
+}
+
+@media (width >= 1300px) {
+  .p1 .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header aside"
+      "article aside";
+  }
+  .p1 header {
+    grid-area: header;
+  }
+  .p1 article {
+    grid-area: article;
+    position: relative;
+  }
+  .p1 aside {
+    grid-area: aside;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .undertext-1 {
+    padding: 0;
+    text-align: left;
+    position: relative;
+    bottom: 7rem;
+  }
+  .headers {
+    padding-left: 1rem;
+    text-align: left;
+    padding-top: 5rem;
+  }
+  .p1-header {
+    font-size: 3.5rem;
+  }
+  .undertext1 {
+    width: 526px;
+    padding-top: 0;
+  }
+  .icons-googleApp {
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    bottom: 7rem;
+  }
+  .icons-googleApp div {
+    flex-wrap: wrap;
+    padding: 0;
+    padding-right: 0.8rem;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+  }
+  .google-icon {
+    height: 56.4px;
+  }
+  .Google-play,
+  .App-store {
+    padding-left: 1.5rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.7em;
+  }
+  .twophones {
+    display: block;
+    padding-top: 4.5rem;
+  }
+  .discover-box {
+    padding-left: 0;
+    position: absolute;
+    bottom: 1rem;
+  }
+}
