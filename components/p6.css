@@ -52,7 +52,7 @@
 .panel-5-text,
 .panel-6-text {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--clr-gray900);
 }
 .panel-box {
