@@ -59,13 +59,7 @@
   padding-bottom: 1.5rem;
   padding-top: 0.1rem;
 }
-/* .icons-p2{
-  background: black;
-  border-radius: 10%;
-} */
-/* .logos-icon-p2 {
-  background:black;
-} */
+
 .logos-container {
   padding-top: 2.5rem;
   padding-left: 2.5rem;
@@ -155,7 +149,6 @@
   .logos-container {
     display: flex;
     justify-content: space-evenly;
-    /* padding-top: 5rem; */
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
