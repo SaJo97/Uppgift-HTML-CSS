@@ -115,7 +115,6 @@ nav {
 }
 
 .container {
-  /*1296px - getbootstrap.com/container */
   width: 100%;
   max-width: 599px;
   margin: 0 auto;
