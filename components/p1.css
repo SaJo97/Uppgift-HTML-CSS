@@ -34,7 +34,7 @@
 }
 .icons-googleApp div {
   background-color: var(--clr-gray900);
-  border-radius: 0.5em;
+  border-radius: var(--br);
   padding: 0.5em;
   display: flex;
   justify-content: center;

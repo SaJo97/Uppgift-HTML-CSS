@@ -207,6 +207,7 @@ nav .container {
   display: inline;
   font-size: 1.3rem;
   color: var(--clr-gray900);
+  text-decoration: none;
 }
 
 @media (width >=768px) {
