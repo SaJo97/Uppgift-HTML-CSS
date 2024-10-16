@@ -38,6 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--clr-card);
 }
 .panel-1 {
   border-radius: 10px 10px 0 0;
@@ -319,13 +320,17 @@
     grid-template-rows: auto auto auto;
     grid-template-areas:
       "header aside"
-      "header aside"
+      "header2 aside"
       "article article"
       "footer footer";
     padding-top: 5rem;
   }
   .p6 header {
     grid-area: header;
+    height: 0;
+  }
+  .p6 header2 {
+    grid-area: header2;
   }
   .p6 aside {
     grid-area: aside;
@@ -342,7 +347,7 @@
   .p6-text {
     display: block;
     text-align: left;
-    padding-top: 0;
+    padding-top: 1rem;
   }
   .p6-title {
     text-align: left;
@@ -350,9 +355,22 @@
   }
   .p6-undertext {
     text-align: left;
+    padding-top: 2.5rem;
+  }
+  .accordion-box{
+    padding-top: 1rem;
+  }
+  .panel-1,
+  .panel-2,
+  .panel-4,
+  .panel-3,
+  .panel-5,
+  .panel-6,
+  .panel-1-undertext {
+    padding: 1em 1.5em 1em 1.5em;
   }
   .contact-us-box {
-    padding-top: 12.5rem;
+    padding-top: 0;
   }
   .phone-calls,
   .msg-us {
